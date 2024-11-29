@@ -1,0 +1,66 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 18px;
+}
+
+.main-container {
+    background-color:  hsl(0, 0%, 12%);
+    width: 40%;
+    max-width: 440px;
+    min-width: 380px;
+    height: 580px;
+    margin: 20% auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 39px;
+}
+
+
+.top-section h1, h3 {
+    margin: 2%;
+    padding: 0%;
+}
+
+.top-section p {
+    margin: 8% auto 7% auto;
+    font-size: 0.98rem;
+}
+
+.top-section h3 {
+    color: hsl(75, 94%, 57%);
+    font-size: 1.2rem;
+}
+
+.top-section #profile-pic {
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px;
+    border-color: white;
+    margin-bottom: 20px;
+
+}
+
+.bottom-section button {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 1.1rem;
+}
+
+.bottom-section button:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transform: scale(1.01);
+}
